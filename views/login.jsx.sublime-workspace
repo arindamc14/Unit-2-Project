@@ -1,0 +1,831 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input"
+			],
+			[
+				"v",
+				"venueName"
+			],
+			[
+				"sns",
+				"snsControllerCallbacks"
+			],
+			[
+				"new",
+				"newArray"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"att",
+				"attemptsLeft"
+			],
+			[
+				"answer",
+				"answer"
+			],
+			[
+				"inn",
+				"innerText"
+			],
+			[
+				"user",
+				"userAnswerString"
+			],
+			[
+				"userAns",
+				"userAnswerString"
+			],
+			[
+				"genera",
+				"generateUserAnswer"
+			],
+			[
+				"clear",
+				"clearInstruction"
+			],
+			[
+				"te",
+				"textContent"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"padi",
+				"padding-top\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"footb",
+				"footballersData"
+			],
+			[
+				"foot",
+				"footballersData"
+			],
+			[
+				"guessed",
+				"guessedLetters"
+			],
+			[
+				"guess",
+				"guessedLetters"
+			],
+			[
+				"atte",
+				"attemptsLeft"
+			],
+			[
+				"con",
+				"convertFarToCel"
+			],
+			[
+				"temp",
+				"tempInCel"
+			],
+			[
+				"tempIn",
+				"tempInFar"
+			],
+			[
+				"current",
+				"currentPrice"
+			],
+			[
+				"cur",
+				"currentInput"
+			],
+			[
+				"Current",
+				"currentInput"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tem",
+				"tempinCel"
+			],
+			[
+				"curr",
+				"currentInput-32"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/ari/sei22/unit2-project/routes.js",
+			"settings":
+			{
+				"buffer_size": 634,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ari/sei22/unit2-project/index.js",
+			"settings":
+			{
+				"buffer_size": 1890,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ari/sei22/unit2-project/db.js",
+			"settings":
+			{
+				"buffer_size": 1577,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "INSERT INTO venuesdb\n(name, description, location, img)\nVALUES\n('The Penny Black', 'Located in the heart of the city, this is a popular destination for sports lovers', '26-27 Boat Quay, Singapore 049817', 'add url here');",
+			"file": "/Users/ari/sei22/unit2-project/seed.sql",
+			"file_size": 15480,
+			"file_write_time": 132326857033997753,
+			"settings":
+			{
+				"buffer_size": 221,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "CREATE TABLE IF NOT EXISTS userDb(\nuserid SERIAL PRIMARY KEY,\nusername TEXT UNIQUE,\npassword TEXT,\nprofilePic TEXT\n);\n\nCREATE TABLE IF NOT EXISTS reviewsDb(\nreviewid SERIAL PRIMARY KEY,\nmessage TEXT,\nrating INTEGER,\npostdate TIMESTAMP\n);\n\nCREATE TABLE IF NOT EXISTS venuesDb(\nvenueid SERIAL PRIMARY KEY,\nname TEXT,\ndescription TEXT,\nlocation TEXT,\nimg TEXT\n);\n\n",
+			"file": "/Users/ari/sei22/unit2-project/tables.sql",
+			"file_size": 397,
+			"file_write_time": 132327009899881962,
+			"settings":
+			{
+				"buffer_size": 361,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login.jsx",
+			"settings":
+			{
+				"buffer_size": 248,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ari/sei22/unit2-project/controller/sns.js",
+			"settings":
+			{
+				"buffer_size": 2110,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home.jsx",
+			"settings":
+			{
+				"buffer_size": 3195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ari/sei22/unit2-project/models/sns-users.js",
+			"settings":
+			{
+				"buffer_size": 2658,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/Users/ari/sei22/unit2-project/models/sns-venues.js",
+			"file_size": 0,
+			"file_write_time": 132329674131832477,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"inden",
+				"Indexing Status"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Rename File"
+			],
+			[
+				"join",
+				"Floobits - Join Workspace"
+			],
+			[
+				"share",
+				"Floobits - Share Directory (Private)"
+			],
+			[
+				"floob",
+				"Floobits - Join Workspace"
+			],
+			[
+				"work",
+				"Floobits - Join Workspace"
+			],
+			[
+				"floobits ",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"floo",
+				"Floobits - Share Directory (Public)"
+			],
+			[
+				"",
+				"Rename File"
+			],
+			[
+				"floobit",
+				"Floobits - Join Workspace"
+			],
+			[
+				"floobits",
+				"Floobits - Refresh Workspace"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ari/sei22/unit2-project",
+		"/Users/ari/sei22/unit2-project/controller",
+		"/Users/ari/sei22/unit2-project/models",
+		"/Users/ari/sei22/unit2-project/views"
+	],
+	"file_history":
+	[
+		"/Users/ari/sei22/unit2-project/views/login-merchants.jsx",
+		"/Users/ari/floobits/mvc-tweedr/tables.sql",
+		"/Users/ari/floobits/mvc-tweedr/package.json",
+		"/Users/ari/floobits/mvc-tweedr/views/add-tag.jsx",
+		"/Users/ari/floobits/mvc-tweedr/views/login.jsx",
+		"/Users/ari/floobits/mvc-tweedr/views/users-register.jsx",
+		"/Users/ari/floobits/mvc-tweedr/views/dashboard.jsx",
+		"/Users/ari/floobits/mvc-tweedr/seed.sql",
+		"/Users/ari/floobits/catworld/text-sample.txt",
+		"/Users/ari/.profile",
+		"/Users/ari/floobits/git-repo/table-flip/script.js",
+		"/Users/ari/floobits/git-repo/unit1-template/index.html",
+		"/Users/ari/floobits/git-repo/unit1-template/script.js",
+		"/Users/ari/floobits/git-repo/unit1-template/style.css",
+		"/Users/ari/floobits/seiclass/csspractice.html",
+		"/Users/ari/floobits/seiclass/styles.css",
+		"/Users/ari/floobits/seiclass/cssscript.js",
+		"/Users/ari/floobits/bobbykwong/floobits_demo/dom_data/css.styles",
+		"/Users/ari/floobits/bobbykwong/floobits_demo/dom_data/script.js",
+		"/Users/ari/floobits/bobbykwong/floobits_demo/dom_data/index.html",
+		"/Users/ari/floobits/bobbykwong/floobits_demo/script.js",
+		"/Users/ari/floobits/git-repo/tictactoe/style.css",
+		"/Users/ari/floobits/git-repo/tictactoe/index.html",
+		"/Users/ari/floobits/git-repo/tictactoe/script.js",
+		"/Users/ari/floobits/git-repo/draw-this/script.js",
+		"/Users/ari/floobits/git-repo/draw-this/index.html",
+		"/Users/ari/floobits/DOMManipulation/script.js",
+		"/Users/ari/floobits/DOMManipulation/index.html",
+		"/Users/ari/floobits/kenneththe/18-March-2020-Files/google-shopping-functions/script.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/ari/sei22/unit2-project/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/ari/sei22/unit2-project/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1507,
+								1510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 766.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/Users/ari/sei22/unit2-project/db.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1288,
+								1288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 661.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/ari/sei22/unit2-project/seed.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 213.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/ari/sei22/unit2-project/tables.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "login.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/Users/ari/sei22/unit2-project/controller/sns.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1200,
+								1200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "home.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/ari/sei22/unit2-project/models/sns-users.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1771,
+								1771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/ari/sei22/unit2-project/models/sns-venues.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.413265217654,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "login.jsx.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
